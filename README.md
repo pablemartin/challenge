@@ -9,6 +9,7 @@ sudo apt update
 sudo apt install python3-poetry
 poetry install
 poetry shell
+alembic upgrade head
 uvicorn main:app --reload
 ```
 
